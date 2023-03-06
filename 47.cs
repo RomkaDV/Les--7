@@ -4,19 +4,6 @@ static int Prompt(string message)
     int result = Convert.ToInt32(Console.ReadLine());
     return result;
 }
-
-/* static void arrayFilling(double[,] arrayFillVoid, int linesVoid, int columnsVoid)
-{
-    Random digit = new Random();
-    for(int i = 0; i<linesVoid; i++)
-    {
-        for(int j = 0; j<columnsVoid; j++)
-        {
-            arrayFillVoid[i, j] = Math.Round(digit.Next(-100, 101) + digit.NextDouble(), 2);
-        }
-    }
-} */
-
 static void arrayFilling(double[,] arrayFillVoid)
 {
     Random digit = new Random();
